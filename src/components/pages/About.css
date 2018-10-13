@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Handlee');
-
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
 
 .nick {
     background-color: rgba(128, 30, 90, 0.699);
@@ -32,4 +32,12 @@
     padding-top: 3px;
     padding-bottom: 10px;
 
+}
+
+.abouttop {
+    font-family: 'Charmonman', cursive;
+    background-color: rgb(43, 42, 42);
+    color: rgb(168, 9, 9);
+    padding-top: 15px;
+    padding-bottom: 5px;
 }

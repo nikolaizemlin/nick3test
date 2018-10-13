@@ -15,17 +15,16 @@ class About extends Component {
   }
 
   render() {
-    const { currentUserEmail, currentUserName } = this.state;
+    
 
     return (
       <div>
-        <div className="jumbotron">
-        <h1>Nick Meg Andy Kenzie</h1>
-        <p>The above have created this ap</p>
+        <div className="jumbotron abouttop">
+        <h1>Created By: Nick, Meg, Andy & Kenzie</h1>
       </div>
       <div className="jumbotron nick" id="nick">
         <h1>Nick Hosley</h1>
-        <p>Here would be my</p>
+        <p>Here is something about me.</p>
       </div>
       <div className="jumbotron meg">
         <h1>Meg</h1>
@@ -38,6 +37,7 @@ class About extends Component {
       <div className="jumbotron kenzie">
         <h1>Kenzie</h1>
         <p>The above have created this app.</p>
+<h4 href="https://mackenzieedwards18.github.io/portfolio/">Profile</h4>
       </div>
       </div>
     );
