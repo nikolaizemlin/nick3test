@@ -3,16 +3,9 @@ import { Link } from 'react-router-dom';
 import './About.css';
 
 class About extends Component {
-  state = {
-    currentUserName: ''
-  };
 
-  componentDidMount() {
-    const idToken = JSON.parse(localStorage.getItem('okta-token-storage'));
-    this.setState({
-      currentUserEmail: idToken.idToken.claims.email,
-    });
-  }
+
+
 
   render() {
     
