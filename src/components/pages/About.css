@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Handlee');
+
+
+.nick {
+    background-color: rgba(128, 30, 90, 0.699);
+    
+
+}
+.meg {
+    background-color: rgba(126, 22, 22, 0.699);
+
+}
+.andy {
+    background-color: rgba(41, 168, 52, 0.699);
+}
+.kenzie {
+    background-color: rgba(128, 110, 30, 0.699);
+}
+
+.info {
+    font-family: 'Handlee', cursive;
+    background-color: rgba(0, 0, 0, 0.774);
+    color: red;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+.tentry {
+    font-family: 'Handlee', cursive;
+    background-color: rgba(0, 0, 0, 0.774);
+    color: red;
+    padding-top: 3px;
+    padding-bottom: 10px;
+
+}

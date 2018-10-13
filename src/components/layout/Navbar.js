@@ -30,6 +30,16 @@ class Navbar extends Component {
                     Staff
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/Info">
+                    Info
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/About">
+                    About
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

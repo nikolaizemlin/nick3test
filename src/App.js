@@ -6,6 +6,9 @@ import Navbar from './components/layout/Navbar';
 import Home from './components/pages/Home';
 import Staff from './components/pages/Staff';
 import Login from './components/auth/Login';
+import Info from './components/pages/Info';
+import About from './components/pages/About';
+
 
 import './App.css';
 
@@ -28,6 +31,8 @@ class App extends Component {
               <div className="container">      
                 <Route path="/" exact={true} component={Home} />
                 <SecureRoute path="/staff" exact={true} component={Staff} />
+                <SecureRoute path="/info" exact={true} component={Info} />
+                <SecureRoute path="/about" exact={true} component={About} />
                 <Route path="/login" render={() => (
                   <Login baseUrl="https://dev-132516.oktapreview.com" />
                 )}
