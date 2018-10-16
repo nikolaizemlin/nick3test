@@ -22,17 +22,17 @@ class Navbar extends Component {
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
                   <Link className="nav-link" to="/">
-                    Home
+                    History
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/staff">
-                    Staff
+                    How too
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/Info">
-                    Info
+                    Recipe
                   </Link>
                 </li>
                 <li className="nav-item">

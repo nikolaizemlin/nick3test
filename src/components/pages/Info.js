@@ -38,9 +38,7 @@ class Info extends Component {
             <button ClassName="btn">Submit</button>
         </form>
         <div className="jumbotron posted">
-          {/* <ul>
-           {onScreenContent}
-          </ul> */}
+
       </div>
       </div>
 

@@ -3,16 +3,20 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers');
 
 .nick {
-    background-color: rgba(167, 21, 21, 0.794);
+    background-color: rgba(51, 47, 47, 0.842);
+    color: orange;
 }
 .meg {
-    background-color: rgba(158, 27, 119, 0.699);
+    background-color: rgba(51, 47, 47, 0.842);
+    color: orange;
 }
 .andy {
-    background-color: rgba(41, 168, 52, 0.699);
+    background-color: rgba(51, 47, 47, 0.842);
+    color: orange;
 }
 .kenzie {
-    background-color: rgba(128, 110, 30, 0.699);
+    background-color: rgba(51, 47, 47, 0.842);
+    color: orange;
 }
 
 .info {
