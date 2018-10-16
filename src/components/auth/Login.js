@@ -37,7 +37,7 @@ export default withAuth(
     render() {
       if (this.state.authenticated === null) return null;
       return this.state.authenticated ? (
-        <Redirect to={{ pathname: 'https://dev-132516.oktapreview.com/oauth2/default/.well-known/oauth-authorization-server' }} />
+        <Redirect to={{ pathname: ' ' }} />
       ) : (
         <SignInWidget
           baseUrl={this.props.baseUrl}

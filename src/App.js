@@ -21,7 +21,7 @@ class App extends Component {
     return (
         <Router>
          <Security
-          issuer="https://dev-132516.oktapreview.com/oauth2/default/.well-known/oauth-authorization-server"
+          issuer="https://dev-132516.oktapreview.com/oauth2/default"
           client_id="0oaglojav30K9El7a0h7"
           redirect_uri={window.location.origin + '/implicit/callback'}
           onAuthRequired={onAuthRequired}
@@ -34,7 +34,7 @@ class App extends Component {
                 <SecureRoute path="/Recipe" exact={true} component={Recipe} />
                 <SecureRoute path="/about" exact={true} component={About} />
                 <Route path="/login" render={() => (
-                  <Login baseUrl="https://dev-132516.oktapreview.com/oauth2/default/.well-known/oauth-authorization-server" />
+                  <Login baseUrl="https://dev-132516.oktapreview.com" />
                 )}
               />
               <Route path="/implicit/callback" component={ImplicitCallback} />
