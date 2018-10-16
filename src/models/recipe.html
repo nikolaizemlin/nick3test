@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="recipePage">
+    <h1 class="title">Recipes</h1>
+<div id="lager"></div>   
+
+</div> 
+
+<!-- create React component -->
+<script type="text/babel">
+
+var beerMe= React.createClass({
+render:function(){
+    getInitiialState: function(){
+        return({
+            recipePage:[],
+        })
+    }
+    render:function(){
+        var recipePage= this.state.recipePage;
+        recipePage= recipePage.map(function(recipePage, index){
+            <li key={index}>
+                <span className={recipePage.obj.available}></span>
+                
+                
+                </li>
+        })
+    }
+    return(
+        <div id="recipe-container">
+            <form id="lager" onSubmit={this.handleSubmit}>
+               <label>Enter your ingredients</label>
+               <input type= "text" ref="ing" placeholder="Ingredients" />
+               <label>Enter your steps</label>
+               <input type= "text" ref="beer" placeholder="Steps" />
+                <input type="submit" value="submit recipe" />
+
+            </form>
+
+            <ul>{recipePage}</ul>
+
+        </div>
+
+
+    )
+}
+
+handleSubmit: function(e){
+    e.preventDefault():
+    var beer= this.refs.beer.value;
+    var ing= this.refs.ing.value;
+
+
+    fetch('/api/recipePage?beer=' + beer + '&ing'= + ing).then(function(data){
+        return data.json()
+    }).then(json => {
+        this.setState({
+            recipePage:json
+
+        })
+
+    })
+}
+
+
+})
+
+
+ReactDOM.render(<recipePage />,Document.getElementById("recipePage"))
+</script>
+
+</body>
+</html>
