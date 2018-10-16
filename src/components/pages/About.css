@@ -3,25 +3,25 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers');
 
 .nick {
-    background-color: rgba(51, 47, 47, 0.842);
+    background-color: rgba(0, 0, 0, 0.774);
     color: orange;
     padding-top: 3px;
     padding-bottom: 5px;
 }
 .meg {
-    background-color: rgba(75, 37, 37, 0.842);
+    background-color: rgba(0, 0, 0, 0.774);
     color: orange;
     padding-top: 3px;
     padding-bottom: 5px;
 }
 .andy {
-    background-color: rgba(51, 47, 47, 0.842);
+    background-color: rgba(0, 0, 0, 0.774);
     color: orange;
     padding-top: 3px;
     padding-bottom: 5px;
 }
 .kenzie {
-    background-color: rgba(75, 37, 37, 0.842);
+    background-color: rgba(0, 0, 0, 0.774);
     color: orange;
     padding-top: 3px;
     padding-bottom: 5px;
@@ -45,7 +45,7 @@
 
 .abouttop {
     font-family: 'Bangers', cursive;
-    background-color: rgb(43, 42, 42);
+    background-color: rgba(0, 0, 0, 0.774);
     color: rgb(168, 9, 9);
     padding-top: 15px;
     padding-bottom: 5px;

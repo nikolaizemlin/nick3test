@@ -37,9 +37,7 @@ class Info extends Component {
         </div>
             <button ClassName="btn">Submit</button>
         </form>
-        <div className="jumbotron posted">
 
-      </div>
       </div>
 
     );
