@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Staff.css';
 
 class Staff extends Component {
   state = {
@@ -22,7 +23,7 @@ class Staff extends Component {
         <div className="jumbotron tophowto">
         <h1>Welcome {currentUserName}</h1>
         <p>Email: {currentUserEmail}</p>
-        <p>You have reached the authorized staff area of the portal</p>
+        <p>You have reached the how too portion of the beer portal</p>
       </div>
 <div className="jumbotron howto">
 <h1>How to Make your Own Beer</h1>

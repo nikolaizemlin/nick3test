@@ -1,0 +1,24 @@
+.tophowto {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(14, 9, 9, 0.89);
+    color: white;
+}
+
+.howto {
+    background-color: rgba(14, 9, 9, 0.89);
+    color: white; 
+}
+
+.heading {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: rgba(14, 9, 9, 0.89);
+    color: white;
+}
+
+.history {
+background-color: rgba(14, 9, 9, 0.89);
+color: white;
+
+}

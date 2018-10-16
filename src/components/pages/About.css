@@ -5,18 +5,26 @@
 .nick {
     background-color: rgba(51, 47, 47, 0.842);
     color: orange;
+    padding-top: 3px;
+    padding-bottom: 5px;
 }
 .meg {
-    background-color: rgba(51, 47, 47, 0.842);
+    background-color: rgba(75, 37, 37, 0.842);
     color: orange;
+    padding-top: 3px;
+    padding-bottom: 5px;
 }
 .andy {
     background-color: rgba(51, 47, 47, 0.842);
     color: orange;
+    padding-top: 3px;
+    padding-bottom: 5px;
 }
 .kenzie {
-    background-color: rgba(51, 47, 47, 0.842);
+    background-color: rgba(75, 37, 37, 0.842);
     color: orange;
+    padding-top: 3px;
+    padding-bottom: 5px;
 }
 
 .info {

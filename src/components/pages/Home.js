@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { withAuth } from '@okta/okta-react';
-
+import './Staff.css';
 
 export default withAuth(
   class Home extends Component {
@@ -39,15 +39,14 @@ export default withAuth(
             You have entered the portal and you are looking at the home page,{' '}
             <Link to="/staff">click here</Link>
           </p>
-          <button className="btn btn-light btn-lg" onClick={this.logout}>
+          <button className="btn btn-light btn-sm" onClick={this.logout}>
             Logout
           </button>
         </div>
       ) : (
         <div>
           <p className="lead">
-            If you are a member, please get your credentials from your
-            supervisor
+           If you would like to join this site please email the site admin  <a href="nhosley1976@gmail.com" target="_blank">here.</a>
           </p>
           <button className="btn btn-dark btn-lg" onClick={this.login}>
             Login
@@ -102,6 +101,11 @@ export default withAuth(
         
     
 <p>Reference: <a href="https://vinepair.com/beer-101/a-brief-history-of-beer/" target="_blank">A BRIEF HISTORY OF BEER</a></p>
+<p>Reference: <a href="https://www.homebrewing.org/" target="_blank">A Beer supply store</a></p>
+
+
+
+
         </div>
         </div>
       );
