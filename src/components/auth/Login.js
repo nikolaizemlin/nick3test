@@ -37,7 +37,7 @@ export default withAuth(
     render() {
       if (this.state.authenticated === null) return null;
       return this.state.authenticated ? (
-        <Redirect to={{ pathname: '/' }} />
+        <Redirect to={{ pathname: 'https://project3bc.herokuapp.com' }} />
       ) : (
         <SignInWidget
           baseUrl={this.props.baseUrl}
