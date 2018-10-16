@@ -5,6 +5,7 @@ class Info extends Component {
   state = {
     currentUserName: '',
     currentUserEmail: ''
+    
   };
 
   componentDidMount() {
@@ -15,8 +16,11 @@ class Info extends Component {
     });
   }
 
+  
   render() {
-    const { currentUserEmail, currentUserName } = this.state;
+    const { currentUserName } = this.state;
+
+
 
     return (
       <div>
@@ -28,11 +32,18 @@ class Info extends Component {
         <form className="jumbotron tentry">
         <div class="form-group">
             <label for="exampleFormControlTextarea1">Type Below to Post to this page.</label>
+            
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
             <button ClassName="btn">Submit</button>
         </form>
+        <div className="jumbotron posted">
+          {/* <ul>
+           {onScreenContent}
+          </ul> */}
       </div>
+      </div>
+
     );
   }
 }

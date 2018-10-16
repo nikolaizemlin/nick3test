@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Handlee');
 @import url('https://fonts.googleapis.com/css?family=Charmonman');
+@import url('https://fonts.googleapis.com/css?family=Bangers');
 
 .nick {
-    background-color: rgba(128, 30, 90, 0.699);
-    
-
+    background-color: rgba(167, 21, 21, 0.794);
 }
 .meg {
-    background-color: rgba(126, 22, 22, 0.699);
-
+    background-color: rgba(158, 27, 119, 0.699);
 }
 .andy {
     background-color: rgba(41, 168, 52, 0.699);
@@ -18,24 +16,23 @@
 }
 
 .info {
-    font-family: 'Handlee', cursive;
+    font-family: 'Bangers', cursive;
     background-color: rgba(0, 0, 0, 0.774);
     color: red;
     padding-top: 3px;
     padding-bottom: 3px;
-
 }
+
 .tentry {
-    font-family: 'Handlee', cursive;
+    font-family: 'Bangers', cursive;
     background-color: rgba(0, 0, 0, 0.774);
     color: red;
     padding-top: 3px;
     padding-bottom: 10px;
-
 }
 
 .abouttop {
-    font-family: 'Charmonman', cursive;
+    font-family: 'Bangers', cursive;
     background-color: rgb(43, 42, 42);
     color: rgb(168, 9, 9);
     padding-top: 15px;

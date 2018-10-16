@@ -36,7 +36,7 @@ export default withAuth(
       const mainContent = this.state.authenticated ? (
         <div>
           <p className="lead">
-            You have entered the staff portal,{' '}
+            You have entered the portal and you are looking at the home page,{' '}
             <Link to="/staff">click here</Link>
           </p>
           <button className="btn btn-light btn-lg" onClick={this.logout}>
@@ -46,7 +46,7 @@ export default withAuth(
       ) : (
         <div>
           <p className="lead">
-            If you are a staff member, please get your credentials from your
+            If you are a member, please get your credentials from your
             supervisor
           </p>
           <button className="btn btn-dark btn-lg" onClick={this.login}>
@@ -57,7 +57,7 @@ export default withAuth(
 
       return (
         <div className="jumbotron">
-          <h1 className="display-4">Acme Staff Portal</h1>
+          <h1 className="display-4">This is the home page.</h1>
           {mainContent}
         </div>
       );
