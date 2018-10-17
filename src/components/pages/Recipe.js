@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Button, FieldGroup, ControlLabel, FormGroup, FormControl, HelpBlock } from 'react-bootstrap';
+
 import './About.css';
 
 class Info extends Component {
@@ -16,10 +18,21 @@ class Info extends Component {
     });
   }
 
+
   
   render() {
     const { currentUserName } = this.state;
 
+    function FieldGroup({ id, label, help, ...props }) {
+      return (
+        <FormGroup controlId={id}>
+          <ControlLabel>{label}</ControlLabel>
+          <FormControl {...props} />
+          {help && <HelpBlock>{help}</HelpBlock>}
+        </FormGroup>
+      );
+    }
+    
 
 
     return (
@@ -29,16 +42,37 @@ class Info extends Component {
         <p>You have reached the authorized are for posting stuff to this page.</p>
       </div>
 
-        <form className="jumbotron tentry">
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">Type Below to Post to this page.</label>
-            
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-            <button ClassName="btn">Submit</button>
-        </form>
+        <div className="jumbotron tentry">
+
+    <FieldGroup
+      id="formControlsText"
+      type="text"
+      label="Name of Recipe"
+      placeholder="Enter text"
+    />
+    <FieldGroup
+      id="formControlsEmail"
+      type="email"
+      label="Type of Beer"
+      placeholder="Enter Text"
+    />
+   
+    {/* <FieldGroup
+      id="formControlsFile"
+      type="file"
+      label="File"
+      help="Example block-level help text here."
+    /> */}
+
+<FormGroup controlId="formControlsTextarea">
+      <ControlLabel>Textarea</ControlLabel>
+      <FormControl componentClass="textarea" placeholder="textarea" />
+    </FormGroup>
+    <Button type="submit">Submit</Button>
 
       </div>
+      </div>
+
 
     );
   }

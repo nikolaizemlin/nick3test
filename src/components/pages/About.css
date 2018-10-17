@@ -28,7 +28,6 @@
 }
 
 .info {
-    font-family: 'Bangers', cursive;
     background-color: rgba(0, 0, 0, 0.774);
     color: red;
     padding-top: 3px;
@@ -36,7 +35,6 @@
 }
 
 .tentry {
-    font-family: 'Bangers', cursive;
     background-color: rgba(0, 0, 0, 0.774);
     color: red;
     padding-top: 3px;
@@ -44,7 +42,6 @@
 }
 
 .abouttop {
-    font-family: 'Bangers', cursive;
     background-color: rgba(0, 0, 0, 0.774);
     color: rgb(168, 9, 9);
     padding-top: 15px;
