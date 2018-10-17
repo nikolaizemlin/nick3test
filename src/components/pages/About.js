@@ -11,7 +11,7 @@ class About extends Component {
     return (
       <div>
         <div className="jumbotron abouttop">
-        <h1>Created By: Nick, Meg, Andy & Kenzie</h1>
+        <h1>Nick, Meg, Andy & Kenzie</h1>
       </div>
       <div className="jumbotron nick" id="nick">
         <h1>Nick</h1>

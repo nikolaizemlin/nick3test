@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Handlee');
-@import url('https://fonts.googleapis.com/css?family=Charmonman');
-@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Shojumaru');
 
 .nick {
     background-color: rgba(0, 0, 0, 0.774);
@@ -28,6 +27,7 @@
 }
 
 .info {
+    font-family: 'Shojumaru', cursive;
     background-color: rgba(0, 0, 0, 0.774);
     color: red;
     padding-top: 3px;
@@ -42,8 +42,10 @@
 }
 
 .abouttop {
+    font-family: 'Shojumaru', cursive;
+
     background-color: rgba(0, 0, 0, 0.774);
-    color: rgb(168, 9, 9);
+    color: white;
     padding-top: 15px;
     padding-bottom: 5px;
 }
