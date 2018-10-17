@@ -15,12 +15,12 @@ class About extends Component {
       </div>
       <div className="jumbotron nick" id="nick">
         <h1>Nick</h1>
-        <p>I like Kilt Lifter mixed with mead and Tequila oh and Absinthe yeah Absinthe is good.</p>
+        <p>I like Jägermeister oh and Absinthe yeah Absinthe is good.</p>
         <p>Reference: <a href="https://nikolaizemlin.github.io/Portfolio/" target="_blank">Profile</a></p>
       </div>
       <div className="jumbotron meg">
         <h1>Meg</h1>
-        <p>If it has alchole I love it.</p>
+        <p>If it has alcohol I love it.</p>
         <p>Reference: <a href="" target="_blank">Profile</a></p>
       </div>
       <div className="jumbotron andy">
