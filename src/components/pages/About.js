@@ -21,7 +21,7 @@ class About extends Component {
       <div className="jumbotron meg">
         <h1>Meg</h1>
         <p>If it has alcohol I love it.</p>
-        <p>Reference: <a href="" target="_blank">Profile</a></p>
+        <p>Reference: <a href="https://mchaack.github.io/UpdatedPortfolio2/" target="_blank">Profile</a></p>
       </div>
       <div className="jumbotron andy">
         <h1>Andy</h1>
