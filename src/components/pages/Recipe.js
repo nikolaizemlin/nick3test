@@ -39,23 +39,20 @@ class Info extends Component {
       <div>
         <div className="jumbotron info">
         <h1>Welcome {currentUserName}</h1>
-        <p>You have reached the authorized are for posting stuff to this page.</p>
+        <p>You have reached the authorized area for posting stuff to this page.</p>
       </div>
 
         <div className="jumbotron tentry">
-
     <FieldGroup
       id="formControlsText"
       type="text"
       label="Name of Recipe"
-      placeholder="Enter text"
-    />
+      placeholder="Enter text"/>
     <FieldGroup
       id="formControlsEmail"
       type="email"
       label="Type of Beer"
-      placeholder="Enter Text"
-    />
+      placeholder="Enter Text"/>
    
     {/* <FieldGroup
       id="formControlsFile"

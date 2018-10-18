@@ -39,7 +39,7 @@ export default withAuth(
             You have entered the portal and you are looking at the home page,{' '}
             <Link to="/staff">click here</Link>
           </p>
-          <button className="btn btn-light btn-sm" onClick={this.logout}>
+          <button className="btn btn-danger btn-sm" onClick={this.logout}>
             Logout
           </button>
         </div>
@@ -48,7 +48,7 @@ export default withAuth(
           <p className="lead">
            If you would like to join this site please email the site admin  <a href="nhosley1976@gmail.com" target="_blank">here.</a>
           </p>
-          <button className="btn btn-dark btn-lg" onClick={this.login}>
+          <button className="btn btn-info btn-sm" onClick={this.login}>
             Login
           </button>
         </div>
