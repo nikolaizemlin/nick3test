@@ -1,25 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Handlee');
 @import url('https://fonts.googleapis.com/css?family=Shojumaru');
+@font-face {
+    src: url(../fonts/ExocetHeavy.ttf);
+    font-family: nick;
+}
+@font-face {
+    src: url(../fonts/ExocetLight.ttf);
+    font-family: nick2;
+}
 
 .nick {
+    font-family: nick2;
     background-color: rgba(0, 0, 0, 0.774);
     color: orange;
     padding-top: 3px;
     padding-bottom: 5px;
 }
 .meg {
+    font-family: nick2;
     background-color: rgba(0, 0, 0, 0.774);
     color: orange;
     padding-top: 3px;
     padding-bottom: 5px;
 }
 .andy {
+    font-family: nick2;
     background-color: rgba(0, 0, 0, 0.774);
     color: orange;
     padding-top: 3px;
     padding-bottom: 5px;
 }
 .kenzie {
+    font-family: nick2;
     background-color: rgba(0, 0, 0, 0.774);
     color: orange;
     padding-top: 3px;
@@ -27,7 +39,7 @@
 }
 
 .info {
-    font-family: 'Shojumaru', cursive;
+    font-family: nick;
     background-color: rgba(0, 0, 0, 0.774);
     color: red;
     padding-top: 3px;
@@ -42,8 +54,7 @@
 }
 
 .abouttop {
-    font-family: 'Shojumaru', cursive;
-
+    font-family: nick;
     background-color: rgba(0, 0, 0, 0.774);
     color: white;
     padding-top: 15px;
