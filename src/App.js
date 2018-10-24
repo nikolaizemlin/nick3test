@@ -22,7 +22,8 @@ class App extends Component {
         <Router>
          <Security
           issuer="https://dev-132516.oktapreview.com/oauth2/default"
-          client_id="0oaglojav30K9El7a0h7"
+          // client_id="0oaglojav30K9El7a0h7"
+          client_id="0oagwqexlfq4CEAEX0h7"
           redirect_uri={window.location.origin + '/implicit/callback'}
           onAuthRequired={onAuthRequired}
         >
