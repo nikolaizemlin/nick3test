@@ -35,7 +35,8 @@ class App extends Component {
                 <SecureRoute path="/Recipe" exact={true} component={Recipe} />
                 <SecureRoute path="/about" exact={true} component={About} />
                 <Route path="/login" render={() => (
-                  <Login baseUrl="https://dev-132516.oktapreview.com" />
+                  // <Login baseUrl="https://dev-132516.oktapreview.com" />
+                  <Login baseUrl="https://modest-wing-fe7798.netlify.com/" />
                 )}
               />
               <Route path="/implicit/callback" component={ImplicitCallback} />
